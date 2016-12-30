@@ -11,12 +11,6 @@ layout: page
 
 #### GPG
 
-```
-Fingerprint: D9D8 F02F 7517 02B1 3B44  B3B9 38A8 F6C7 4992 00B9
-
-Key Server:   pgp.mit.edu
-Key ID: 499200B9
-```
 <h2>Skills</h2>
 
 <ul class="skill-list">
