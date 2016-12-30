@@ -9,7 +9,7 @@ tag:
 - research
 - adhesion
 blog: true
-author: Andreas Buttenschoen
+author: adrs
 description: Preprint Adhesion Random Walk
 ---
 
@@ -34,4 +34,3 @@ stochastic random walk.
 ## Where to get it
 
 A copy of preprint can be found at [bioarxiv](http://biorxiv.org/content/early/2016/12/13/093617). 
-
