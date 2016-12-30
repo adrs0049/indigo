@@ -7,7 +7,7 @@ description: A website featuring my research and related topics
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.jpg
 
 url: http://www.buttenschoen.ca
@@ -50,7 +50,7 @@ authors:
         name: Andreas Buttenschoen
         bio: I'm a doctoral student in Mathematical Biology at the University of Alberta 
         external-image: true
-        picture: www.buttenschoen.ca/assets/images/profile.jpg
+        picture: assets/images/profile.jpg
         twitter: adrs0061
 
 # do you want a larger site? change the option below
