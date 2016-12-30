@@ -25,7 +25,7 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: wwwbuttenschoenca
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -79,7 +79,7 @@ show-tags: true
 related: true
 
 # show next & prev links in blog post?
-blog-nav-links: false
+blog-nav-links: true
 
 # show author block at the end of a post ?
 show-author: true
