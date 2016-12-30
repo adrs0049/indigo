@@ -31,6 +31,6 @@ chemotaxis models. Finally, we use random walk simulations to confirm that the
 corresponding continuum model represents the mean field behaviour of the
 stochastic random walk.
 
-## Where to get it
+## Where to get it?
 
 A copy of preprint can be found at [bioarxiv](http://biorxiv.org/content/early/2016/12/13/093617). 
