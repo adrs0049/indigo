@@ -33,5 +33,5 @@ stochastic random walk.
 
 ## Where to get it
 
-A copy of preprint can be found here [bioarxiv](http://biorxiv.org/content/early/2016/12/13/093617). 
+A copy of preprint can be found at [bioarxiv](http://biorxiv.org/content/early/2016/12/13/093617). 
 
