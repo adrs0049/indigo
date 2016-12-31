@@ -8,7 +8,7 @@ description: A website featuring my research and related topics
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: profile-adrs.jpg
 
 url: http://www.buttenschoen.ca
 #url: /home/adrs0061/sources/websites/persona_test
@@ -45,14 +45,6 @@ keybase: adrs0061
 #medium: medium
 #vimeo: myvimeo
 email: andreas.buttenschoen@ualberta.ca
-
-authors:
-    adrs:
-        name: Andreas Buttenschön
-        bio: I'm a doctoral student in Mathematical Biology at the University of Alberta 
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: adrs0061
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -98,6 +90,7 @@ sass:
 gems:
   - jemoji
   - jekyll-mentions
+  - jekyll-assets
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
@@ -107,8 +100,37 @@ gems:
   - jekyll/scholar/extras
   - purecss-sass
 
+# Assets Pipeline
+assets:
+  digest: false
+  compress:
+    css: sass
+    js: uglifier
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/javascripts/vendor
+    - _assets/stylesheets
+    - _assets/fonts
+
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "assets"
+
+  #autoprefixer:
+  #  browsers: ["> 1%","last 4 versions","IE > 8"]
+
+authors:
+    adrs:
+        name: Andreas Buttenschön
+        bio: I'm a doctoral student in Mathematical Biology at the University of Alberta 
+        external-image: false
+        picture: profile-adrs.jpg
+        twitter: adrs0061
+
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://twitter.com
 
 scholar:
     style: ./adrs0049.github.io/publications/ieee-with-url.csl

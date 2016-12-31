@@ -6,8 +6,9 @@ layout: default
 <html lang="en">
 <head>
     {% if page.jq %}
-        <script async src="{{ site.url }}/jquery-3.1.1.slim.min.js"></script>
-        <script async src="{{ site.url }}/bootstrap.min.js"></script>
+
+    <script async type="text/javascript" data-main="{{ site.url }}/{% asset_path app.js %}" src="{{ site.url }}/{% asset_path require.js %}"></script>
+
     {% endif %}
 </head>
 
