@@ -16,8 +16,10 @@ if [ -z "$branch" ] || [ "$branch" != "master" ]; then
 fi
 
 git submodule update
-src_path = ~/sources/websites/adrs0049.github.io/
-exe_cmd "jekyll build --source "${src_path}" --destination "${src_path}/_site" --trace"
+cd ..
+exe_cmd "jekyll build --source ~/sources/websites/adrs0049.github.io/ --destination ~/sources/websites/adrs0049.github.io/_site --trace"
+cd ~/sources/websites/adrs0049.github.io
+
 if [ ! -d '_site' ];then
     echo "not content to be published"
     exit
