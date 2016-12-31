@@ -10,8 +10,8 @@ description: A website featuring my research and related topics
 external-image: false
 picture: assets/images/profile.jpg
 
-#url: http://www.buttenschoen.ca
-url: /home/adrs0061/sources/websites/persona_test
+url: http://www.buttenschoen.ca
+#url: /home/adrs0061/sources/websites/persona_test
 
 permalink: /:title/
 
