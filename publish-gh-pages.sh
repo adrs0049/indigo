@@ -10,7 +10,7 @@ if [ $# -lt 1 ]; then
     exit
 fi
 
-branch=master
+branch=$1
 if [ -z "$branch" ] || [ "$branch" != "master" ]; then
     branch='gh-pages'
 fi
