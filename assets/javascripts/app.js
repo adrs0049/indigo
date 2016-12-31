@@ -1,0 +1,1 @@
+requirejs.config({shim:{bootstrap:{deps:["jquery"]}},paths:{jquery:"vendor/jquery",bootstrap:"vendor/bootstrap"}}),require(["jquery","bootstrap"],function(e){e(function(){e("#element").carousel()})});
