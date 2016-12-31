@@ -8,7 +8,7 @@ layout: page
 
     {% if page.math %}
         <!-- mathjax config similar to math.stackexchange -->
-        <script type="text/x-mathjax-config">
+        <script async type="text/x-mathjax-config">
         MathJax.Hub.Config({
           jax: ["input/TeX", "output/HTML-CSS"],
           tex2jax: {
@@ -22,7 +22,11 @@ layout: page
         });
         </script>
         <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+    {% endif %}
 
+    {% if page.jq %}
+        <script src="{{ site.url }}/jquery-3.1.1.slim.min.js"></script>
+        <script src="{{ site.url }}/bootstrap.min.js"></script>
     {% endif %}
 
 </head>

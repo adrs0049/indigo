@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if page.jq %}
+        <script async src="{{ site.url }}/jquery-3.1.1.slim.min.js"></script>
+        <script async src="{{ site.url }}/bootstrap.min.js"></script>
+    {% endif %}
+</head>
+
 {% include header.html %}
 
 {{content}}
