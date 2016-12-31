@@ -1,0 +1,73 @@
+://keybase.io/adrs0061
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.buttenschoen.ca
+  * I am adrs0061 (https://keybase.io/adrs0061) on keybase.
+  * I have a public key with fingerprint D9D8 F02F 7517 02B1 3B44  B3B9 38A8 F6C7 4992 00B9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010156e5874f713fccc5ba22b54e4f66a8bd32f17ff8311393ba79350e307395ca350a",
+            "fingerprint": "d9d8f02f751702b13b44b3b938a8f6c7499200b9",
+            "host": "keybase.io",
+            "key_id": "38a8f6c7499200b9",
+            "kid": "010156e5874f713fccc5ba22b54e4f66a8bd32f17ff8311393ba79350e307395ca350a",
+            "uid": "e0de718bc099a4f5137b595d2b08af19",
+            "username": "adrs0061"
+        },
+        "service": {
+            "hostname": "www.buttenschoen.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483151890,
+    "expire_in": 157680000,
+    "prev": "b11b1c171242c97bc7abd7340b444a55df297874af4e1cc627e56a057cf144e6",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtQVGUY3t0Eg2CKuMQqGJ3A1ZHwfOe6Z2ccHBBS0CkBBxBlOZfvLIfL7rpn
+l0s7JFgq4qJYCIRmdBlzzJwWScxrDlPGpRC1ggGVMEFyELFRDIE6y9i/fvb9+b73
+ned53ud9v7fG/xmVRq1yEk3H0q5fVXeOcqoM04IoJ8JZhFLE4ETy4dwFCwQo2435
+koAYEBSggKQgqacJkQa4yPM8ybEYxpEEJESKYvWcgGMioEVRjwOAMzjH0gxOohBH
+aZwheVZ5s0g0IkpmE7RZbZLZrsgKjKAXUUykSUCjGAdwjiA4nGNwPasXKZ4mGAZD
+UY5RiLkW2cNQzHGsDGMki5JTAuOcvf/A/8++HXNyEBUgDfQcjzIMS4gkwGmOZEgB
+41A9KwJPXYcMbWa2ECpoVrDJKEoBpCwaUbJFEg89g/V08hRRXFwcwznsdmiW+VwL
+NMfwnlpWm8Vu4S0FCiDXbrcaPHx7qXWOADnjUykjJ5kFZZoKoQjaZMliRgxAQfJ2
+yaMNCKUhEugZNBqBJVbJBo2SB0HSlB5VjqcMLFIkuWwAOMADGmAExjM0x9MsJ9A4
+gSqfQbAkKYgYQysDZEUCAp6nMBqSFIuSNC8CgoAU4ului9mCGCjFJ2tSNGXJZGbt
+DhtEynx3acLmqdQalbeXxrNnKl+fF/5dvoabz/8df1tb5Te71dCZvNznLHY54a2O
+AKD66d66O5sq3n/n3aZL1+RZ4HXS+YHf+Knq1T5t5V5Jx8/VLx7dmfj7fefO4Ni1
+XQltuolX8x4/jHuQvK52ZNX+6Arzom3lW9jMksCa8oGBlpOvj/dNVDUOj1fiVXm6
+Xzd+Yy3NSmtKf/KRO/VmXSXZm5KyNHKzvW/foUWtByNem2mP814YETt4LNT8x/GL
++dOmH2p+aRHbxUcqLSF1jeVpezNz4dvdV7Ceyowsr86sgYBTF+Y3i86HHXENy7FW
+TVhv+pR0rvHLwQjtksETb56Xrq4oOHK+230tRO3OVL8YU9+xY7JqVeferXcneqdb
+Pgn5UWsDv43ceNTetnokMmXhnZTdM65XQufdCNw3NKr7dmqHO3Dv9tZZdU+EPPLF
+6PqwoNafay+9FDlRGF83veFT0xlncJ9m2te49O6JZlVP/q39IdLpW67vHoRjhmVv
+VLx39PpwdVDYgu+/krePDWbG5gxlr1nr03DP1dkPcv3v6zJy6o5mP1kZerb6ysED
+Q/GuPbVTn5fRpxMdfX2taQk5SfMXa733bDg0e3iyKElXEhW1e/1MeCaT3J+a6lhC
+B/SndS9j/S8g3Stf/itxU/OKICJltpDeWBSsC//adXuoC25GDz9r2fZcqNvvcnpx
+/bhbOtD44Zpg6s+LjY9leKT8zMeTw2MBn/0D
+=CShn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adrs0061
+
+==================================================================
+
+
