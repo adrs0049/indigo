@@ -10,7 +10,8 @@ description: A website featuring my research and related topics
 external-image: false
 picture: assets/images/profile.jpg
 
-url: http://www.buttenschoen.ca
+#url: http://www.buttenschoen.ca
+url: /home/adrs0061/sources/websites/persona_test
 
 permalink: /:title/
 
@@ -87,6 +88,9 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# create a list of publications
+publications: true
+
 sass:
     sass_dir: _sass
     style: :compressed
@@ -99,6 +103,39 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
+  - jekyll/scholar
+  - jekyll/scholar/extras
+  - purecss-sass
 
 jekyll-mentions:
     base_url: https://github.com
+
+scholar:
+    style: ./adrs0049.github.io/publications/ieee-with-url.csl
+    locale: en
+    sort_by: none
+    order: descending
+      
+    source: ./_bibliography
+    repository: pdf
+    bibliography: bibliography.bib
+    bibliography_template: bibliography
+    
+    replace_strings: true
+    join_strings:    true
+
+    use_raw_bibtex_entry: true
+    bibtex_filters:
+    - superscript
+    - latex
+    
+    #bibliography_list_tag: "ul"
+
+    details_dir:    publications/details
+    details_layout: bibtex.html
+    details_link:   Details
+    
+    query: "@*[public!=no]"
+
+
+
