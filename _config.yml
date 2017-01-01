@@ -10,8 +10,8 @@ description: A website featuring my research and related topics
 external-image: false
 picture: profile-adrs.jpg
 
-url: http://www.buttenschoen.ca
-#url: /home/adrs0061/sources/websites/persona_test
+#url: http://www.buttenschoen.ca
+url: /home/adrs0061/sources/websites/persona_test
 
 permalink: /:title/
 
@@ -84,7 +84,7 @@ animation: true
 publications: true
 
 sass:
-    sass_dir: _sass
+    sass_dir: _assets/stylesheets
     style: :compressed
 
 gems:
@@ -104,8 +104,8 @@ gems:
 assets:
   digest: false
   compress:
-    css: sass
-    js: uglifier
+    css: true
+    js: true
   sources:
     - _assets
     - _assets/images

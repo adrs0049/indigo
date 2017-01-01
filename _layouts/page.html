@@ -5,6 +5,9 @@ layout: default
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/{% asset_path app.css %}">
+
     {% if page.jq %}
 
     <script async type="text/javascript" data-main="{{ site.url }}/{% asset_path app.js %}" src="{{ site.url }}/{% asset_path require.js %}"></script>
