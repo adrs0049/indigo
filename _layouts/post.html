@@ -6,8 +6,6 @@ layout: page
 <html lang="en">
 <head>
 
-    <link type="text/css" rel="stylesheet" href="{{ site.url }}/{% asset_path app.css %}">
-
     {% if page.math %}
         <!-- mathjax config similar to math.stackexchange -->
         <script async type="text/x-mathjax-config">
@@ -33,6 +31,8 @@ layout: page
     {% endif %}
 
 </head>
+
+{% include load-css.html %}
 
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
