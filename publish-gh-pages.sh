@@ -16,7 +16,7 @@ if [ -z "$branch" ] || [ "$branch" != "master" ]; then
 fi
 
 git submodule update --remote
-sed -i '/^@preamble/ d' ~/sources/websites/adrs0049.github.io/_bibliography/personal_bibliography.bib
+#sed -i '/^@preamble/ d' ~/sources/websites/adrs0049.github.io/_bibliography/personal_bibliography.bib
 cd ..
 exe_cmd "jekyll build --source ~/sources/websites/adrs0049.github.io/ --destination ~/sources/websites/adrs0049.github.io/_site --trace"
 cd ~/sources/websites/adrs0049.github.io
