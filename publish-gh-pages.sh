@@ -15,7 +15,7 @@ if [ -z "$branch" ] || [ "$branch" != "master" ]; then
     branch='gh-pages'
 fi
 
-git submodule update
+git submodule update --remote
 cd ..
 exe_cmd "jekyll build --source ~/sources/websites/adrs0049.github.io/ --destination ~/sources/websites/adrs0049.github.io/_site --trace"
 cd ~/sources/websites/adrs0049.github.io
